@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class ps{
+    public static void main(String[] args){
+        try{
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("enter number:");
+        int a=scanner.nextInt();
+        double sq=Math.sqrt(a);
+        if(sq==Math.floor(sq)){
+            System.out.print("perfect number");
+        }
+        else{
+            System.out.print("not a perfect number");
+        }
+        }
+        catch(Exception e)
+        {}
+    }
+}
